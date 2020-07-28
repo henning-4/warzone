@@ -7,6 +7,7 @@ The JSON files are then read into R, pre-processed in R, then sent to R Shiny to
 ## Postman Details
 GET requests are currently made for each seperate gamertag (16 total, 2 different API endpoints). Need to create a Postman Collection, 
 so that all requests can be run at the same time. This will also be useful for automatic refresh (Monitor utility in Postman). 
+https://rapidapi.com/elreco/api/call-of-duty-modern-warfare
 
 ## R and R Shiny Details
 Because the resulting JSON files have more data than what is ultimately shown, much of the R code used is to whittle down the columns we need, and to 
